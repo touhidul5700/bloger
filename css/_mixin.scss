@@ -1,0 +1,51 @@
+
+@mixin testimonial {
+    img {
+        width: 100px;
+        border-radius: 100%;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 26px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff76;
+        line-height: 20px;
+    }
+}
+
+
+/* responsive */
+@mixin res-test-cont {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 60px;
+}
+
+@mixin res-test-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+

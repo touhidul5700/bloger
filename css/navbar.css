@@ -1,0 +1,26 @@
+/* scrollbar style------------- */
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff8c00;
+}
+
+/* navbar custom style-------------- */
+.shadhin-nav {
+  padding: 5px 100px !important;
+  font-size: 20px;
+  position: sticky !important;
+  top: 0;
+  background-color: #ffbf00;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  margin-right: 20px;
+}/*# sourceMappingURL=navbar.css.map */

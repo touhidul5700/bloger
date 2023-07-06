@@ -1,0 +1,63 @@
+
+/* ////////////////////////////
+         blog section css
+//////////////////////////// */
+
+.shadhin-blog-container {
+    width: 80%;
+    margin: auto;
+}
+
+.shadhin-blog-heading {
+    font-size: 28px;
+    text-align: center;
+}
+
+.shadhin-blog-coloum-container {
+    display: flex;
+    gap: 30px;
+}
+
+.shadhin-blog-coloum {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #ffbf00;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shadhin-blog-coloum:hover{
+    background-color: #000000;
+    transition: 1.5s;
+}
+.shadhin-blog-coloum img {
+    width: 100%;
+    height: 250px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.shadhin-blog-content {
+    padding: 20px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.shadhin-blog-content h3 {
+    font-size: 22px;
+}
+
+.shadhin-blog-content p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* mobile & tab version of blog section */
+@media only screen and (max-width: 991px) and (min-width: 0px)  {
+    
+    .shadhin-blog-container{
+        width: 90%;
+        margin: auto;
+    }
+    .shadhin-blog-coloum-container{
+        flex-wrap: wrap;
+    }
+}
